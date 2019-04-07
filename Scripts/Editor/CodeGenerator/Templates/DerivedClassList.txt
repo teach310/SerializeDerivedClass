@@ -1,0 +1,28 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+[System.Serializable]
+public class $ClassName$
+{
+    $Field$
+    public $ClassName$(List<$DataName$> src){
+        for (int i = 0; i < src.Count; i++)
+        {
+            switch (src[i])
+            {
+                $Switch$
+            }
+        }
+    }
+
+    public List<$DataName$> Convert(){
+        $Convert$
+    }
+
+    public static List<System.Type> GetAllDerivedTypes(){
+        return new List<System.Type>(){
+            $GetAllDerivedTypes$
+        };
+    }
+}
